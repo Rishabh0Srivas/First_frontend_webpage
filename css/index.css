@@ -1,0 +1,117 @@
+#head {
+  font-family: "Ubuntu", sans-serif;
+}
+.icon {
+  background: url(../img/icon.png);
+  background-repeat: no-repeat;
+  height: 64px;
+  width: 64px;
+  background-position: top;
+  color: aqua;
+  margin-left: 60px;
+}
+.navbar {
+  width: 600px;
+  position: absolute;
+  top: 10px;
+  left: 170px;
+}
+body li {
+  display: inline-block;
+}
+body li a {
+  text-decoration: none;
+  font-size: 28px;
+  margin: 15px;
+  color: #f3c283;
+}
+a:visited {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: underline;
+  color: #846c4e;
+}
+body {
+  background: url(../img/background.jpg);
+  background-position: left;
+  color: aliceblue;
+}
+#p1 {
+  display: block;
+  width: 300px;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: 125px;
+  left: 332px;
+}
+#p2 {
+  position: relative;
+  top: 128px;
+  left: 175px;
+  width: 700px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.container {
+  background-color: #f4efef;
+  border-radius: 6px;
+  position: absolute;
+  width: 370px;
+  height: 400px;
+  top: 23%;
+  left: 63%;
+}
+.form-group {
+  margin: 70px;
+}
+body input {
+  border: 2px solid#eeecec;
+  border-radius: 3px;
+  width: 300px;
+  height: 25px;
+  position: relative;
+  top: -15px;
+  left: -38px;
+}
+body button {
+  background-color: #f3c283;
+  border: none;
+  border-radius: 2px;
+  width: 303px;
+  height: 50px;
+  position: relative;
+  top: -40px;
+  left: 36px;
+}
+body button:hover {
+  cursor: pointer;
+}
+#name {
+  color: black;
+  position: absolute;
+  top: 35px;
+  left: 38px;
+}
+#number {
+  color: black;
+  position: absolute;
+  top: 135px;
+  left: 38px;
+}
+#email {
+  color: black;
+  position: absolute;
+  top: 235px;
+  left: 38px;
+}
+#tnc {
+  color: black;
+  position: absolute;
+  top: 296px;
+  left: 15%;
+  width: 270px;
+  font-size: 12px;
+  text-align: center;
+}
